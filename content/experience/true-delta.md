@@ -9,4 +9,11 @@ weight: 303
 --- 
 
 ## Description
-**Guide:** **Henda Regaya** 
+**Guide:** **Henda Regaya** <br>
+Development of web based OCR application to check frauds and errors in banking checks.
+<br>
+<br>
+<br>
+<br>
+<br>
+**Skills:** Google Cloud Platform (GCP) · React.js · Java · Spring Boot
