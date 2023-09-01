@@ -6,8 +6,6 @@ draft: false
 tags: []
 showToc: false
 weight: 303
-cover:
-  image: "/static/experience/1.png"
 ---
 
 ## Description
