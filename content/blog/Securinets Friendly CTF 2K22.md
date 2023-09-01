@@ -11,11 +11,11 @@ cover:
 
 # 4 in a row
 
-![](/static/blog/Securinets%20Friendly%20CTF%202K22/1.webp)
+![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*7vuY2sZl8Hjqb4fTVpxiGA.png)
 
 The challenge was given as a 150x150 png file and as the description mentioned it was about png color channels and specifically the alpha value of a pixel.
 
-![](/static/blog/Securinets%20Friendly%20CTF%202K22/2.webp)
+![](https://miro.medium.com/v2/resize:fit:302/format:webp/1*ssQVJYvTf-gig6y0knbCEQ.png)
 
 We can read from the description that the flag was hidden in the alpha value of every pixel that its order is divisible by 4 . But before hacking into the challenge, let’s talk about the png color channel and how the data is embedded in each pixel.Each pixel in an image is represented by the model RGBA(red,green,blue,alpha) and these pixels are presenting the image as a matrix.
 
@@ -44,11 +44,11 @@ and the flag was Securinets{PiLl0W_Pyth0N_1S_Awe5oMe}
 
 # 5 in a row
 
-![](/static/blog/Securinets%20Friendly%20CTF%202K22/3.webp)
+![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*xyEp9a9bkLcQFylZGVhUNg.png)
 
 The second challengee was given as a 150x150 png file and as the description mentioned it was about png color channels and specifically the alpha value of a pixel.
 
-![](/static/blog/Securinets%20Friendly%20CTF%202K22/4.webp)
+![](https://miro.medium.com/v2/resize:fit:302/format:webp/1*ssQVJYvTf-gig6y0knbCEQ.png)
 
 We can read from the description that the flag was hidden in the alpha value of every pixel that its order is divisible by 5 and i == j (diagonal of the image) . But before we jump to the extracting part let’s talk about the png color channel and how the data is embedded in each pixel.Each pixel in an image is represented by the model RGBA(red,green,blue,alpha) and these pixels are presenting the image as a matrix.
 
