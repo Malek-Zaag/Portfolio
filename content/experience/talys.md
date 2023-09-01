@@ -1,5 +1,5 @@
 ---
-title: "DevOps Trainee"
+title: "DevOps Engineer Trainee"
 description: "Talys Consulting"
 dateString: Jul 2023 - Aug 2023
 draft: false
