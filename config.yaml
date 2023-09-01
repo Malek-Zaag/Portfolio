@@ -65,7 +65,7 @@ params:
     - name: "github"
       url: "https://github.com/Malek-Zaag"
     - name: "cv"
-      url: "https://drive.google.com/file/d/1o8jm2nms_telf0RxUx6He6tTWJlf49pn/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1ud28yicMGdGCpQ29dPEtLgClyvmFdMPj/view?usp=drive_link"
 
   # text search
   fuseOpts:
