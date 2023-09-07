@@ -8,7 +8,7 @@ tags:
 showToc: false
 weight: 203
 cover:
-  image: "https://media.licdn.com/dms/image/D4D22AQHcTfZvQhK4Bw/feedshare-shrink_2048_1536/0/1685749989095?e=1697068800&v=beta&t=K7UTkOAu-Tf3lUIn5T0rS8IjQNpFH_QpTmTDGvYHsiQ"
+  image: "https://cdn-images-1.medium.com/max/2000/1*txYenDfftaNOa8T3-M6s6w.png"
 ---
 
 # Development of a web interface for managing and monitoring virtual machines in the Cloud
