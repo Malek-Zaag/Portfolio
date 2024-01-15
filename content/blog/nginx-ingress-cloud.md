@@ -3,11 +3,19 @@ title: "Setup nginx Ingress in cloud"
 description: "In this blog, I will guide you through the process of setting up an Nginx Ingress controller in a cloud environment. "
 dateString: Dec 2022
 draft: false
-tags: ["Kubernetes", "Azure", "Nginx Ingress Controller","Azure Kubernetes Service","Nginx Ingress"]
+tags:
+  [
+    "Kubernetes",
+    "Azure",
+    "Nginx Ingress Controller",
+    "Azure Kubernetes Service",
+    "Nginx Ingress",
+  ]
 weight: 102
 cover:
-    image: "/blog/nginx-ingress-cloud/cover.jpeg"
+  image: "blog/nginx-ingress-cloud/cover.jpeg"
 ---
+
 This document describes how to install the NGINX Ingress Controller in your Kubernetes cluster using kubectl .
 
 ## What is Ingress ?
@@ -41,6 +49,7 @@ An ingress controller, because it is a core component of Kubernetes, requires sp
 ```
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/cloud/deploy.yaml
 ```
+
 Output:
 
 ![](https://miro.medium.com/v2/resize:fit:700/1*jf7B22bTxjuhRZzvlCQ0bA.png)
@@ -50,42 +59,46 @@ Output:
 The above command will by default expose the NGINX Ingress Controller to the outside world to allow it to start receiving connections.
 
 ## Validate the NGINX Ingress Controller
+
 ```
-kubectl get pods --all-namespaces -l app.kubernetes.io/name=ingress-nginx  
+kubectl get pods --all-namespaces -l app.kubernetes.io/name=ingress-nginx
 kubectl get services ingress-nginx-controller --namespace=ingress-nginx
 ```
+
 ![](https://miro.medium.com/v2/resize:fit:700/1*BELVC5tx9bpHXp3ulNGxdw.png)
 
 ## Exposing Services using NGINX Ingress Controller
 
 Now we will be wirting the Ingress manifest :
+
 ```
-apiVersion: networking.k8s.io/v1  
-kind: Ingress  
-metadata:  
-  name: hello-world  
-  annotations:  
-    kubernetes.io/ingress.class: "nginx"  
-    nginx.ingress.kubernetes.io/rewrite-target: /  
-spec:  
-  rules:  
-    - http:  
-        paths:  
-          - pathType: Exact  
-            path: /bookstore  
-            backend:  
-              service:  
-                name: app1-svc  
-                port:  
-                  number: 80  
-          - pathType: Exact  
-            path: /library  
-            backend:  
-              service:  
-                name: app2-svc  
-                port:  
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: hello-world
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+    - http:
+        paths:
+          - pathType: Exact
+            path: /bookstore
+            backend:
+              service:
+                name: app1-svc
+                port:
+                  number: 80
+          - pathType: Exact
+            path: /library
+            backend:
+              service:
+                name: app2-svc
+                port:
                   number: 80
 ```
+
 Testing out things :
 
 After deploying our applications manifests :

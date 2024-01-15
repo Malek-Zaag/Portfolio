@@ -6,7 +6,7 @@ draft: false
 tags: ["Kafka", "Consumer", "Producer", "Python"]
 weight: 199
 cover:
-  image: "/blog/apache-kafka-demo/cover.png"
+  image: "blog/apache-kafka-demo/cover.png"
 ---
 
 # Apache Kafka

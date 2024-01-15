@@ -3,10 +3,17 @@ title: "I Deployed application on Azure Kubernetes Service"
 description: "In this blog, I'll be sharing my experience of deploying an application on Azure Kubernetes Service (AKS)."
 dateString: Nov 2022
 draft: false
-tags: ["Kubernetes", "Azure", "Kubernetes Cluster","Azure Kubernetes Service","Web Development"]
+tags:
+  [
+    "Kubernetes",
+    "Azure",
+    "Kubernetes Cluster",
+    "Azure Kubernetes Service",
+    "Web Development",
+  ]
 weight: 102
 cover:
-    image: "/blog/deploy-app-aks/cover.jpg"
+  image: "blog/deploy-app-aks/cover.jpg"
 ---
 
 In this article, we are going to demonstrate how to deploy a web application in AKS (Azure Kubernetes Service) .
@@ -63,7 +70,7 @@ az aks get-credentials --resource-group aks-rg1 --name mk-aks
 
 We deploy our deployments and services using :
 
- kubectl apply -f .\client-deploy.yaml  
+kubectl apply -f .\client-deploy.yaml  
  kubectl apply -f .\server-deploy.yaml  
  kubectl apply -f .\client-svc.yaml  
  kubectl apply -f .\server-svc.yaml
@@ -78,36 +85,37 @@ nginx
 
 To achieve forwarding the API requests to our ClusterIP backend, we are going to use a nginx server which we will serve as a reverse-proxy .
 
-a  **reverse proxy**  is the application that sits in front of back-end applications and forwards client (e.g. browser) requests to those applications. Reverse proxies help increase scalability, performance, resilience and security. The resources returned to the client appear as if they originated from the web server itself.
+a **reverse proxy** is the application that sits in front of back-end applications and forwards client (e.g. browser) requests to those applications. Reverse proxies help increase scalability, performance, resilience and security. The resources returned to the client appear as if they originated from the web server itself.
 
 My nginx.conf :
 
 server {  
-    listen 80;  
-  
-    location /api {  
-        proxy_http_version 1.1;  
-        proxy_set_header Upgrade $http_upgrade;  
-        proxy_set_header Connection "upgrade";  
-        proxy_set_header Host $host;  
-        proxy_cache_bypass $http_upgrade;  
-        proxy_pass http://${API}:${PORT}/api;   
-    }  
-  
-    location / {  
-        root /usr/share/nginx/html;  
-        index index.html index.htm;  
-        try_files $uri $uri/ /index.html;  
-    }  
-  
-    error_page 500 502 503 504 /50x.html;  
-  
-    location = 50x.html {  
-        root /usr/share/nginx/html;  
-    }  
+ listen 80;
+
+    location /api {
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+        proxy_pass http://${API}:${PORT}/api;
+    }
+
+    location / {
+        root /usr/share/nginx/html;
+        index index.html index.htm;
+        try_files $uri $uri/ /index.html;
+    }
+
+    error_page 500 502 503 504 /50x.html;
+
+    location = 50x.html {
+        root /usr/share/nginx/html;
+    }
+
 }
 
-In this configuration, every request for “/api” we will be forwarded to “[http://${API}:${PORT}/api](https://medium.com/$%7BAPI%7D:$%7BPORT%7D/api)”. For example, a request a /api/user will be forwarded to  [http://${API}:${PORT}/api](https://medium.com/$%7BAPI%7D:$%7BPORT%7D/api)/user .
+In this configuration, every request for “/api” we will be forwarded to “[http://${API}:${PORT}/api](https://medium.com/$%7BAPI%7D:$%7BPORT%7D/api)”. For example, a request a /api/user will be forwarded to [http://${API}:${PORT}/api](https://medium.com/$%7BAPI%7D:$%7BPORT%7D/api)/user .
 
 ## Testing out things :
 

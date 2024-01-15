@@ -6,7 +6,7 @@ draft: false
 tags: []
 weight: 110
 cover:
-  image: "/experience/talys.png"
+  image: "experience/talys.png"
 ---
 
 ## Description

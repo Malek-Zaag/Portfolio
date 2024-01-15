@@ -6,7 +6,7 @@ draft: false
 tags: ["forensics", "python", "cybersecurity", "writeups"]
 weight: 102
 cover:
-  image: "/blog/Securinets Friendly CTF 2K22/téléchargement.png"
+  image: "blog/Securinets Friendly CTF 2K22/téléchargement.png"
 ---
 
 # 4 in a row

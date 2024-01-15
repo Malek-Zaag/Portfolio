@@ -6,7 +6,7 @@ draft: false
 tags: []
 showToc: false
 cover:
-  image: "/img/dwaya.jpg"
+  image: "img/dwaya.jpg"
 weight: 303
 ---
 

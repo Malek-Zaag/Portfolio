@@ -6,7 +6,7 @@ draft: false
 tags: ["Kubernetes", "AWS", "Automation", "Jenkins", "Ci Cd pipeline"]
 weight: 102
 cover:
-  image: "/blog/aws-automated-pipeline/1.jpg"
+  image: "blog/aws-automated-pipeline/1.jpg"
 ---
 
 In today's fast-paced software development environment, the efficient and reliable deployment of applications is crucial. A Continuous Integration/Continuous Deployment (CI/CD) pipeline plays a pivotal role in automating and streamlining the software development lifecycle. This pipeline integrates Jenkins, Ansible, and cloud services from AWS and Azure to deliver a comprehensive solution for your software deployment needs.

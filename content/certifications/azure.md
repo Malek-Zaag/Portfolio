@@ -4,7 +4,7 @@ description: ""
 draft: false
 weight: 103
 cover:
-  image: "/certifications/azure.jpg"
+  image: "certifications/azure.jpg"
 ---
 
 ## 1. [Azure Fundamentals](https://learn.microsoft.com/api/credentials/share/en-us/MalekZaag-9452/F4CDD6E795F43945?sharingId=3CCAD8537ABEA699)
