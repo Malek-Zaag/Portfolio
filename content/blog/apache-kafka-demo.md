@@ -4,7 +4,7 @@ description: ""
 dateString: Apr 2023
 draft: false
 tags: ["Kafka", "Consumer", "Producer", "Python"]
-weight: 102
+weight: 199
 cover:
   image: "/blog/apache-kafka-demo/cover.png"
 ---

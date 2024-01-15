@@ -6,7 +6,7 @@ draft: false
 tags:
   ["ReactJS", "ExpressJS", "Cloud", "Azure", "CI/CD", "Ansible", "Terraform"]
 showToc: false
-weight: 203
+weight: 103
 cover:
   image: "https://cdn-images-1.medium.com/max/2000/1*txYenDfftaNOa8T3-M6s6w.png"
 ---

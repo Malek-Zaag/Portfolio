@@ -4,10 +4,9 @@ description: "Talys Consulting"
 dateString: Jul 2023 - Sep 2023
 draft: false
 tags: []
-showToc: false
+weight: 110
 cover:
-  image: "/talys.png"
-weight: 303
+  image: "/experience/talys.png"
 ---
 
 ## Description

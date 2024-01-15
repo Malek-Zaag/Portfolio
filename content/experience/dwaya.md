@@ -5,6 +5,8 @@ dateString: Jun 2022 - Jul 2022
 draft: false
 tags: []
 showToc: false
+cover:
+  image: "/img/dwaya.jpg"
 weight: 303
 ---
 
