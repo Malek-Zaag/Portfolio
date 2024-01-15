@@ -33,7 +33,8 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
-
+  ShowReadingTime: true
+  ShowShareButtons: true
   # for enchanced SEO
   env: production
 
