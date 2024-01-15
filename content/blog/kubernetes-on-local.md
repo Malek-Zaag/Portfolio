@@ -6,7 +6,7 @@ draft: false
 tags: ["Kubernetes", "Kubeadm", "Clustering"]
 weight: 102
 cover:
-  image: "blog/Kubenetes-on-local/cover.jpg"
+  image: "blog/Kubernetes-on-local/cover.jpg"
 ---
 
 # Kubernetes setup locally using kubeadm

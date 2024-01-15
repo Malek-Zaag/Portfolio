@@ -35,6 +35,7 @@ params:
   hideMeta: false
   ShowReadingTime: false
   ShowShareButtons: true  
+  canonifyURLs: true
   # for enchanced SEO
   env: production
 
