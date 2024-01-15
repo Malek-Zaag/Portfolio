@@ -6,7 +6,7 @@ draft: false
 tags: ["Kubernetes", "GitOps", "Azure", "Jenkins", "Ci Cd pipeline"]
 weight: 102
 cover:
-  image: "/blog/CI-CD-argoCD/cover.jpg"
+  image: "blog/CI-CD-argoCD/cover.jpg"
 ---
 
 # CI/CD pipeline with Jenkins and Argo CD

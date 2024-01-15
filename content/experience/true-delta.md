@@ -6,7 +6,7 @@ draft: false
 tags: []
 showToc: false
 cover:
-  image: "/img/true_delta_logo.jpg"
+  image: "img/true_delta_logo.jpg"
 weight: 303
 ---
 
