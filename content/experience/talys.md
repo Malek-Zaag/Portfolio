@@ -1,10 +1,12 @@
 ---
-title: "DevOps Engineer Trainee"
+title: "DevOps Engineer Intern"
 description: "Talys Consulting"
 dateString: Jul 2023 - Sep 2023
 draft: false
 tags: []
 showToc: false
+cover:
+  image: "/talys.png"
 weight: 303
 ---
 
