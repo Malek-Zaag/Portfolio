@@ -41,7 +41,7 @@ params:
   profileMode:
     enabled: true
     title: "Malek Zaag"
-    subtitle: "Hi 👋, I'm Malek, I am currently in the third year of Networks and Telecommunications engineering at INSAT, I am interested in the development of web applications and their migration to the cloud domain. I am autonomous, rigorous and open to all opportunities."
+    subtitle: "Hi 👋, I'm Malek, I am currently in the third year of Networks and Telecommunications engineering at INSAT, I am interested in the development of web applications and their migration to the cloud domain. I am autonomous, rigorous and open to all opportunities. My goal is to continuously improve my skills and knowledge, and to create value and impact for the society and the environment."
     imageUrl: "home/me.png"
     imageWidth: 220
     imageHeight: 220
