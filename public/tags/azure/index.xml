@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Azure on Malek Zaag</title>
+    <link>https://malek-zaag.netlify.app/tags/azure/</link>
+    <description>Recent content in Azure on Malek Zaag</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://malek-zaag.netlify.app/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CI/CD pipeline with Jenkins and Argo CD</title>
+      <link>https://malek-zaag.netlify.app/blog/ci-cd-argocd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://malek-zaag.netlify.app/blog/ci-cd-argocd/</guid>
+      <description>In this blog, we&amp;#39;ll discuss how to set up a CI/CD pipeline using Jenkins and Argo CD. </description>
+    </item>
+    
+    <item>
+      <title>I Deployed application on Azure Kubernetes Service</title>
+      <link>https://malek-zaag.netlify.app/blog/deploy-app-aks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://malek-zaag.netlify.app/blog/deploy-app-aks/</guid>
+      <description>In this blog, I&amp;#39;ll be sharing my experience of deploying an application on Azure Kubernetes Service (AKS).</description>
+    </item>
+    
+    <item>
+      <title>Setup nginx Ingress in cloud</title>
+      <link>https://malek-zaag.netlify.app/blog/nginx-ingress-cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://malek-zaag.netlify.app/blog/nginx-ingress-cloud/</guid>
+      <description>In this blog, I will guide you through the process of setting up an Nginx Ingress controller in a cloud environment. </description>
+    </item>
+    
+    <item>
+      <title>VM creation SaaS</title>
+      <link>https://malek-zaag.netlify.app/projects/cloudivops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://malek-zaag.netlify.app/projects/cloudivops/</guid>
+      <description>Development of a web interface for managing and monitoring virtual machines in the Cloud In this article i m going to resume our end of year project that consists on the development of a web interface to create , manage and monitor virtual machines in the Cloud . The application will take CloudiVops as name and i will present for you the main features and the process of the development of this application</description>
+    </item>
+    
+  </channel>
+</rss>

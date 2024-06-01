@@ -2,34 +2,41 @@ baseURL: "https://malek-zaag.netlify.app/"
 languageCode: en-us
 title: Malek Zaag
 theme: PaperMod
-
 menu:
   main:
     - identifier: home
       name: Home
       url: /
       weight: 10
+    - identifier: skills
+      name: Skills
+      url: /skills
+      weight: 20
     - identifier: blog
       name: Blog
       url: /blog
-      weight: 20
+      weight: 30
     - identifier: projects
       name: Projects
       url: /projects
-      weight: 30
+      weight: 40
     - identifier: experience
       name: Experience
       url: /experience
-      weight: 40
+      weight: 50
     - identifier: certifications
       name: Certifications
       url: /certifications
-      weight: 50
+      weight: 60
 
 params:
   # theme
   showToc: false
   TocOpen: false
+  show_date: true
+  reading_time: true
+  share: true
+  profile: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
@@ -38,12 +45,21 @@ params:
   canonifyURLs: true
   # for enchanced SEO
   env: production
+  skills_section_title: ""
 
   # Home Page
   profileMode:
     enabled: true
     title: "Malek Zaag"
-    subtitle: "Hi 👋, I'm Malek, I am currently in the third year of Networks and Telecommunications engineering at INSAT, I am interested in the development of web applications and their migration to the cloud domain. I am autonomous, rigorous and open to all opportunities. My goal is to continuously improve my skills and knowledge, and to create value and impact for the society and the environment."
+    subtitle: "👨‍💻 I'm Malek Zaag, I am a Cloud/DevOps Engineer.
+              🔭 I have interest on Dev{Sec}Ops & Cloud Native projects. I am Kubernetes Enthusiast and Tech Storyteller.
+              💬 Ask me about anything and everything!
+              👨‍💻 Backend development using NodeJS, Python and Golang.
+              ⚡ Creating scalable cloud architecture using AWS And Azure Cloud.
+              🥅 Working on Various Topics and Projects.
+              ☸️ Diving deep in Kubernetes World.
+              🏆 5x Cloud Certified (AWS, GCP and Azure).
+              🌱 Currently learning Newest DevOps CI/CD Tools (Azure DevOps and GitHub Actions)."
     imageUrl: "home/me.png"
     imageWidth: 220
     imageHeight: 220
@@ -80,6 +96,45 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+  
+  skills:
+  - name: Technical
+    items:
+    - name: Python
+      description: ''
+      percent: 80
+      icon: python
+      icon_pack: fab
+    - name: Data Science
+      description: ''
+      percent: 100
+      icon: chart-line
+      icon_pack: fas
+    - name: SQL
+      description: ''
+      percent: 40
+      icon: database
+      icon_pack: fas
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking
+        description: ''
+        percent: 60
+        icon: person-hiking
+        icon_pack: fas
+      - name: Cats
+        description: ''
+        percent: 100
+        icon: cat
+        icon_pack: fas
+      - name: Photography
+        description: ''
+        percent: 80
+        icon: camera-retro
+        icon_pack: fas
+
 
 # for search using Fuse.js
 outputs:

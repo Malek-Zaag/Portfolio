@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Malek Zaag</title>
+    <link>https://malek-zaag.netlify.app/projects/</link>
+    <description>Recent content in Projects on Malek Zaag</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://malek-zaag.netlify.app/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VM creation SaaS</title>
+      <link>https://malek-zaag.netlify.app/projects/cloudivops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://malek-zaag.netlify.app/projects/cloudivops/</guid>
+      <description>Development of a web interface for managing and monitoring virtual machines in the Cloud In this article i m going to resume our end of year project that consists on the development of a web interface to create , manage and monitor virtual machines in the Cloud . The application will take CloudiVops as name and i will present for you the main features and the process of the development of this application</description>
+    </item>
+    
+    <item>
+      <title>E-commerce Website</title>
+      <link>https://malek-zaag.netlify.app/projects/e-commerce-shop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://malek-zaag.netlify.app/projects/e-commerce-shop/</guid>
+      <description>E-commerce Website : Overview : This project is among my first web projects designed in my early steps of self learning. It is an e-commerce shop to sell musical instruments. You need to create an account in order to view cart, view shop and make orders, it includes also a payment module for users.
+GitHub Repo</description>
+    </item>
+    
+    <item>
+      <title>Python implementation for the Gnutella Protocol</title>
+      <link>https://malek-zaag.netlify.app/projects/gnutella-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://malek-zaag.netlify.app/projects/gnutella-project/</guid>
+      <description>Gnutella Project Overview : This project was issued to me during my academic studies. It consists of creating a simple application that uses the peer-to-peer protocol Gnutella.
+Gnutella : The Gnutella protocol is a peer-to-peer (P2P) file-sharing protocol that allows users to share files directly with each other over the Internet without the need for a central server. It was developed in 2000 and is based on a decentralized network architecture that enables users to search for and download files from other users&amp;rsquo; computers.</description>
+    </item>
+    
+    <item>
+      <title>Todo list using ReactJS and NodeJS</title>
+      <link>https://malek-zaag.netlify.app/projects/todo-app-ts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://malek-zaag.netlify.app/projects/todo-app-ts/</guid>
+      <description>Todo List This app is built with NextJS and ExpressJS as a backend library. I used MongoDB as a database for my users and their todos. This app allows users to authenticate, register and create their todos that will be saved to the database.
+Architecture UML diagrams This is the Usecase Diagram of the app :
+and this is the entity-relationship Diagram :
+Docker Docker is an open platform for developing, shipping, and running applications.</description>
+    </item>
+    
+  </channel>
+</rss>

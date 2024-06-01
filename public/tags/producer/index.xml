@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Producer on Malek Zaag</title>
+    <link>https://malek-zaag.netlify.app/tags/producer/</link>
+    <description>Recent content in Producer on Malek Zaag</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://malek-zaag.netlify.app/tags/producer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Kafka</title>
+      <link>https://malek-zaag.netlify.app/blog/apache-kafka-demo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://malek-zaag.netlify.app/blog/apache-kafka-demo/</guid>
+      <description>Apache Kafka Introduction In this article, we are going to talk about apache kafka which is an open-source distributed streaming platform that was developed by the Apache Software Foundation. It is designed to handle large volumes of real-time data and enables the efficient processing, storage, and analysis of data streams.
+kafka Cluster cluster : Our cluster can be illustrated as below :
+Producer : In Kafka, a producer is a client application that is responsible for publishing data to one or more Kafka topics.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>writeups on Malek Zaag</title>
+    <link>https://malek-zaag.netlify.app/tags/writeups/</link>
+    <description>Recent content in writeups on Malek Zaag</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://malek-zaag.netlify.app/tags/writeups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securinets Friendly CTF 2K22 forensics writeup</title>
+      <link>https://malek-zaag.netlify.app/blog/securinets-friendly-ctf-2k22/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://malek-zaag.netlify.app/blog/securinets-friendly-ctf-2k22/</guid>
+      <description>This is my first CTF writeup for two forensics tasks in the Securinets Friendly CTF which was held online from the 30th of September 2022 to the 4th of October, how you like it .</description>
+    </item>
+    
+  </channel>
+</rss>

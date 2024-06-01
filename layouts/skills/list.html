@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section id="skills">
+  <h2>{{ .Site.Params.skills_section_title }}</h2>
+  <div class="skills-list">
+    {{ range .Pages }}
+    <div class="skill">
+      <h3>{{ .Title }}</h3>
+      <p><strong>Proficiency:</strong> {{ .Params.proficiency }}</p>
+      <p>{{ .Params.description }}</p>
+      <img
+        src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png"
+        width="30"
+        height="40"
+      />
+    </div>
+    DEVOPS TOOLKIT Python, GoLang, Shell, Bash DevOps & Cloud: Docker, Jenkins,
+    Git, Ansible, Terraform, Grafana, ELK Stack, AWS, Kubernetes. Operating
+    systems: Linux Red Hat, Ubuntu, Mint, CentOS. DevOps: Maven, Jenkins, Sonar,
+    Nexus, GitLab, Docker, Ansible, Puppet, Terraform (Infrastructure as Code).
+    Virtualization: Amazon Web Services (AWS), VMware vSphere, Hyper-V, Docker,
+    OpenShift Continious integration: GIT, github & gitlab {{ end }}
+  </div>
+</section>
+{{ end }}

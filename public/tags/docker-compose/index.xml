@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Docker-compose on Malek Zaag</title>
+    <link>https://malek-zaag.netlify.app/tags/docker-compose/</link>
+    <description>Recent content in Docker-compose on Malek Zaag</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://malek-zaag.netlify.app/tags/docker-compose/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Todo list using ReactJS and NodeJS</title>
+      <link>https://malek-zaag.netlify.app/projects/todo-app-ts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://malek-zaag.netlify.app/projects/todo-app-ts/</guid>
+      <description>Todo List This app is built with NextJS and ExpressJS as a backend library. I used MongoDB as a database for my users and their todos. This app allows users to authenticate, register and create their todos that will be saved to the database.
+Architecture UML diagrams This is the Usecase Diagram of the app :
+and this is the entity-relationship Diagram :
+Docker Docker is an open platform for developing, shipping, and running applications.</description>
+    </item>
+    
+  </channel>
+</rss>
