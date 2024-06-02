@@ -3,7 +3,7 @@
   <h2>{{ .Site.Params.skills_section_title }}</h2>
   <div class="skills-list">
     {{ range .Pages }}
-    <div class="skill">
+    <!-- <div class="skill">
       <h3>{{ .Title }}</h3>
       <p><strong>Proficiency:</strong> {{ .Params.proficiency }}</p>
       <p>{{ .Params.description }}</p>
@@ -12,13 +12,68 @@
         width="30"
         height="40"
       />
+    </div> -->
+    <h1 style="margin: 0 20px 20px 0">DevOps Toolkit</h1>
+    <div style="display: flex; flex-wrap: wrap">
+      <ul style="list-style-type: none; padding: 0; margin: 0 20px 20px 0">
+        <li>
+          <strong>Programming Languages:</strong>
+          <span>Python, Golang, Shell, Bash </span>
+        </li>
+        <li>
+          <ul
+            style="list-style-type: none; padding: 0; margin: 20px 20px 20px 0"
+          >
+            <li>
+              <strong>DevOps & Cloud:</strong>
+              <span
+                >Docker, Jenkins, Git, Ansible, Terraform, Grafana, ELK Stack,
+                AWS, Kubernetes</span
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul style="list-style-type: none; padding: 0; margin: 0 20px 20px 0">
+            <li>
+              <strong>Operating Systems:</strong
+              ><span>Linux Red Hat, Ubuntu, Mint, CentOS</span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul style="list-style-type: none; padding: 0; margin: 0 20px 20px 0">
+            <li>
+              <strong>DevOps Tools:</strong>
+              <span
+                >Maven, Jenkins, Sonar, Nexus, GitLab, Docker, Ansible, Puppet,
+                Terraform (Infrastructure as Code)</span
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul style="list-style-type: none; padding: 0; margin: 0 20px 20px 0">
+            <li>
+              <strong>Virtualization:</strong>
+              <span
+                >Amazon Web Services (AWS), VMware vSphere, Hyper-V, Docker,
+                OpenShift</span
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul style="list-style-type: none; padding: 0; margin: 0 20px 20px 0">
+            <li>
+              <strong>Continuous Integration:</strong>
+              <span>GIT, GitHub, GitLab</span>
+            </li>
+          </ul>
+        </li>
+      </ul>
     </div>
-    DEVOPS TOOLKIT Python, GoLang, Shell, Bash DevOps & Cloud: Docker, Jenkins,
-    Git, Ansible, Terraform, Grafana, ELK Stack, AWS, Kubernetes. Operating
-    systems: Linux Red Hat, Ubuntu, Mint, CentOS. DevOps: Maven, Jenkins, Sonar,
-    Nexus, GitLab, Docker, Ansible, Puppet, Terraform (Infrastructure as Code).
-    Virtualization: Amazon Web Services (AWS), VMware vSphere, Hyper-V, Docker,
-    OpenShift Continious integration: GIT, github & gitlab {{ end }}
+    {{ end }}
   </div>
 </section>
 {{ end }}
